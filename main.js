@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Loratadine", price: 10.00, image: "Lortadine.PNG" },
         { name: "Cetirizine", price: 5.00, image: "Cetirizine.PNG" },
         { name: "Fexofenadine", price: 12.00, image: "Fexofenadine.PNG" },
-        { name: "Chlorpheniramine", price: 12.00, image: "Chlorpheniramine.PNG" },
+        { name: "Chlorpheniramine", price: 12.00, image: "chlorpheniramine.PNG" },
         { name: "Levocetirizine", price: 12.00, image: "levocetirizine.PNG" }
     ];
 
