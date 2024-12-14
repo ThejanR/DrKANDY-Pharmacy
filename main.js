@@ -21,39 +21,39 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     const products2 = [
-        { name: "Amoxillin", price: 10.00, image: "Amoxicilin.png" },
-        { name: "Metronidazole", price: 10.00, image: "Metronidazole.png" },
-        { name: "Ciprofloxacin", price: 5.00, image: "Ciprofloxacin.png" },
-        { name: "Azithromycin", price: 12.00, image: "Azithromycin.png" },
-        { name: "Doxycycline", price: 12.00, image: "Doxycycline.png" },
-        { name: "Cephalexin", price: 12.00, image: "Cephalexin.png" }
+        { name: "Amoxillin", price: 10.00, image: "Amoxicilin.PNG" },
+        { name: "Metronidazole", price: 10.00, image: "Metronidazole.PNG" },
+        { name: "Ciprofloxacin", price: 5.00, image: "Ciprofloxacin.PNG" },
+        { name: "Azithromycin", price: 12.00, image: "Azithromycin.PNG" },
+        { name: "Doxycycline", price: 12.00, image: "Doxycycline.PNG" },
+        { name: "Cephalexin", price: 12.00, image: "Cephalexin.PNG" }
     ];
 
     const products3 = [
-        { name: "Fluoxetine", price: 10.00, image: "fluoxetine.png" },
-        { name: "Sertraline", price: 10.00, image: "setraline.png" },
-        { name: "Citalopram", price: 5.00, image: "citalopram.png" },
-        { name: "Escitalopram", price: 12.00, image: "Escitalopram.png" },
-        { name: "Amitriptyline", price: 12.00, image: "Amitriptyline.png" },
-        { name: "Venlafaxine", price: 12.00, image: "Venlafaxine.png" }
+        { name: "Fluoxetine", price: 10.00, image: "fluoxetine.PNG" },
+        { name: "Sertraline", price: 10.00, image: "setraline.PNG" },
+        { name: "Citalopram", price: 5.00, image: "citalopram.PNG" },
+        { name: "Escitalopram", price: 12.00, image: "Escitalopram.PNG" },
+        { name: "Amitriptyline", price: 12.00, image: "Amitriptyline.PNG" },
+        { name: "Venlafaxine", price: 12.00, image: "Venlafaxine.PNG" }
     ];
 
     const products4 = [
-        { name: "Diphenhydramine", price: 10.00, image: "Diphenhydramine.png" },
-        { name: "Loratadine", price: 10.00, image: "Lortadine.png" },
-        { name: "Cetirizine", price: 5.00, image: "Cetirizine.png" },
-        { name: "Fexofenadine", price: 12.00, image: "Fexofenadine.png" },
-        { name: "Chlorpheniramine", price: 12.00, image: "Chlorpheniramine.png" },
-        { name: "Levocetirizine", price: 12.00, image: "levocetirizine.png" }
+        { name: "Diphenhydramine", price: 10.00, image: "Diphenhydramine.PNG" },
+        { name: "Loratadine", price: 10.00, image: "Lortadine.PNG" },
+        { name: "Cetirizine", price: 5.00, image: "Cetirizine.PNG" },
+        { name: "Fexofenadine", price: 12.00, image: "Fexofenadine.PNG" },
+        { name: "Chlorpheniramine", price: 12.00, image: "Chlorpheniramine.PNG" },
+        { name: "Levocetirizine", price: 12.00, image: "levocetirizine.PNG" }
     ];
 
     const products5 = [
-        { name: "Lisinopril", price: 10.00, image: "lisinopril.png" },
-        { name: "Amlodipine", price: 10.00, image: "amlodipine.png" },
-        { name: "Losartan", price: 5.00, image: "losartan.png" },
-        { name: "Metoprolol", price: 12.00, image: "metoprolol.png" },
-        { name: "Hydrochlorothiazide", price: 12.00, image: "hydrochlorothiazide.png" },
-        { name: "Clonidine", price: 12.00, image: "clonidine.png" }
+        { name: "Lisinopril", price: 10.00, image: "lisinopril.PNG" },
+        { name: "Amlodipine", price: 10.00, image: "amlodipine.PNG" },
+        { name: "Losartan", price: 5.00, image: "losartan.PNG" },
+        { name: "Metoprolol", price: 12.00, image: "metoprolol.PNG" },
+        { name: "Hydrochlorothiazide", price: 12.00, image: "hydrochlorothiazide.PNG" },
+        { name: "Clonidine", price: 12.00, image: "clonidine.PNG" }
     ];
 
 
