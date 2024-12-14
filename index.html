@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr KANDY HOSPITAL - Pharmacy</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <!-- Logo and Navigation Bar -->
+    <nav>
+        <section class="logo">
+            <a href="./index.html">
+                <img src="./Pictures/Green_Simple_Medical_Clinic_Logo-removebg-preview.png" style="width: 200px;" alt="logo">
+            </a>
+        </section>
+        <!-- Hamburger menu -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT US</a></li>
+            <li><a href="./services.html">SERVICES</a></li>
+            <li><a href="./doctors.html">DOCTORS</a></li>
+            <li><a href="./reservation.html">RESERVATION</a></li>
+            <li><a href="./pharmacy.html">PHARMACY</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<section class="textbox">
+    <h1>Pharmacy</h1>
+</section>
+<span class="hotline">HOTLINE - 5990</span>
+<br>
+
+<!-- Pharmacy section -->
+<div class="pharmacycon">
+    <header>
+        <h1>Analgesics</h1>
+    </header>
+    <div class="list" id="product-list">
+        <!-- Products will be dynamically added here -->
+    </div>
+    <header>
+        <h1>Antibiotics</h1>
+    </header>
+    <div class="list" id="product-list-2">
+        <!-- Products will be dynamically added here -->
+    </div>
+    <header>
+        <h1>Antidepressants</h1>
+    </header>
+    <div class="list" id="product-list-3">
+        <!-- Products will be dynamically added here -->
+    </div>
+    <header>
+        <h1>Antihistamines</h1>
+    </header>
+    <div class="list" id="product-list-4">
+        <!-- Products will be dynamically added here -->
+    </div>
+    <header>
+        <h1>Antihypertensives</h1>
+    </header>
+    <div class="list" id="product-list-5">
+        <!-- Products will be dynamically added here -->
+    </div>
+</div>
+
+<!-- Cart Table -->
+<div class="cart-table">
+    <h2>Your Cart</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody id="cart-items">
+        <!-- Cart items will be dynamically added here -->
+        </tbody>
+    </table>
+    <div class="fav-btns">
+        <button type="button" id="save-fav-btn">Add to Favourites</button>
+        <button type="button" id="apply-fav-btn">Apply Favourites</button>
+        <button type="button" id="clear-table">Clear</button>
+    </div>
+    <div class="checkout">
+        <span class="total">Total: $<span id="total">0.00</span></span>
+        <button id="pay-button">Pay</button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="foot_container">
+        <div class="row">
+            <div class="footer-col">
+                <a href="./index.html">
+                    <img src="./Pictures/Green_Simple_Medical_Clinic_Logo-removebg-preview.png" width="200px" alt="Logo">
+                </a>
+                <p>Dr Kandy Hospital, established in 1990 and proudly serving the Kandy community for over three decades.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./about.html">About us</a></li>
+                    <li><a href="./reservation.html">Reservation</a></li>
+                    <li><a href="./pharmacy.html">Pharmacy</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Phone Numbers and Email:</h4>
+                <ul>
+                    <li>+94 76 410 3544</li>
+                    <li>+94 76 410 3544</li>
+                    <li>+94 76 410 3544</li>
+                    <li>Email: contactus@drkandy.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p>&copy; Dr Kandy Hospital 2024 All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="./main.js"></script>
+</body>
+</html>

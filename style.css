@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #d8fcff;
+    --secondary-color: #fff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 100px;
+}
+
+/* Header and Navigation */
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #beecf0;
+    color: white;
+    height: 100px;
+    border-bottom: 2px solid black;
+    z-index: 100;
+}
+
+header nav .logo img {
+    max-width: 200px;
+}
+
+header nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav .menu li {
+    display: inline-block;
+}
+
+header nav .menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+header nav .menu li a:hover {
+    color: #007b5e;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+
+.textbox {
+    text-align: center;
+    margin: 20px;
+    color: #333;
+}
+
+.textbox h1 {
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+.hotline {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px auto;
+    color: red;
+    margin-left: 45%;
+}
+
+/* Pharmacy Container */
+.pharmacycon {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    transition: 0.5s;
+}
+
+.pharmacycon header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pharmacycon header h1 {
+    padding: 10px;
+    margin-top: 45px;
+    font-size: 28px;
+    color: #333;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Product */
+.list .item {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.list .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.list .item img {
+    width: 80%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.list .item .title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #007b5e;
+}
+
+.list .item .price {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.list .item button {
+    background-color: #007b5e;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list .item button:hover {
+    background-color: #005f47;
+}
+
+/* Cart Table */
+.cart-table {
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.cart-table h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cart-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.cart-table th, .cart-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-table th {
+    background-color: #f4f4f4;
+}
+
+.cart-table td {
+    font-size: 16px;
+}
+
+.cart-table td button {
+    padding: 6px 12px;
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-table td button:hover {
+    background-color: #025140;
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#pay-button, #save-fav-btn, #apply-fav-btn, #clear-table {
+    background-color: #007b5e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 250px;
+}
+
+#save-fav-btn, #apply-fav-btn {
+    background-color: #7e750c !important;
+    margin: 10px;
+}
+
+#clear-table {
+    background-color: #e84545;
+    margin: 10px;
+}
+
+#pay-button:hover {
+    background-color: #025140;
+}
+
+/* Footer */
+.footer {
+    background-color: #2b2e2d;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer .foot_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-col h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #b2f7fa;
+    padding-left: 5px;
+}
+
+.footer .social-links a {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #b2f7fa;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .pharmacycon {
+        width: 95%;
+    }
+
+    .hotline {
+        margin-left: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    header nav .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right: 20px;
+        width: 200px;
+        text-align: left;
+        padding: 10px;
+        background-color: #d8fcff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    header nav .menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger span {
+        background-color: black;
+    }
+
+    .hotline {
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .pharmacycon {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .hotline {
+        margin-left: 41%;
+    }
+}
+
+@media (max-width: 650px) {
+    header nav .logo img {
+        max-width: 160px;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-col {
+        margin: 10px 0;
+    }
+
+    .hotline {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cart-table table {
+        display:flex;
+        width: 100%;
+    }
+
+    .cart-table th, .cart-table td {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .cart-table td {
+        text-align: right;
+        padding: 10px 15px;
+    }
+
+    .cart-table th {
+        text-align: left;
+    }
+
+    .cart-table td button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
